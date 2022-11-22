@@ -1,0 +1,17 @@
+#hobby {
+    border-bottom: 3px solid #20B2AA;
+    border-left: 3px solid #20B2AA;
+    border-radius: 10px;
+}
+
+#experience {
+    border-bottom: 4px solid #20B2A1;
+    border-left: 4px solid #20B2A1;
+    border-radius: 10px;
+}
+
+#myCourses {
+    border-bottom: 5px solid #20A2AA;
+    border-left: 5px solid #20A2AA;
+    border-radius: 10px;
+}

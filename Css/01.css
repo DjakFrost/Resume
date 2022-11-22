@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: nunito, sans-serif;
+    font-weight: normal;
+}
+
+header {
+    line-height: 30px;
+}
+
+h1 {
+    padding: 20px 90px;
+}
+
+.headerText {
+    padding: 80px;
+}
+
+.footerText {
+    padding: 30px;
+}
+
+.footerText h2 {
+    padding-left: 10px;
+}
+
+footer {
+    font-size: 23px
+}
+
+.vkImg {
+    width: 30px
+}
+
+.card {
+    padding: 30px 20px;
+    background-color: dimgrey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+#hobby {
+    padding-left: 40px;
+    margin-left: 10px;
+    margin-right: 80px;
+}
+
+#experience {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#myCourses {
+    padding-left: 40px;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 20%;
+    padding: 7px;
+    background-color: #505050;
+    margin-left: 160px;
+    box-shadow: 14px 14px 14px rgba(50, 50, 50, 0.35)
+}
+
+@media (max-width: 650px) {
+
+    .container {
+        position: center;
+        font-size: 1.3rem;
+        display:inline;
+    }
+.list{
+    padding: 0;
+}
+    .card {
+        font-size: 1.3rem;
+    }
+
+    footer {
+        font-size: 1.3rem;
+    }
+    header{
+        line-height: 25px;
+    }
+
+}

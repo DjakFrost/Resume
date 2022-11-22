@@ -1,0 +1,36 @@
+a {
+    color: dimgrey;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: darkslategrey;
+}
+a:active {
+    color: brown;
+}
+.btn {
+    color: #505050;
+    background-color: #999999;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border:none;
+    cursor: pointer;
+    margin: 0 95px;
+}
+
+.btn:hover {
+    border-radius: 0px;
+    opacity: .8;
+}
+
+.btn:active {
+    color: #999999;
+    border-radius: 15px;
+}
+
+.btn:visited {
+    color: brown;
+}
